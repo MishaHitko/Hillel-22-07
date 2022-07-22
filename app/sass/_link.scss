@@ -1,0 +1,16 @@
+.link {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: $linkblue;
+	padding-right: 2px;
+	display: inline-flex;
+	align-items: center;
+	&:hover,
+	&:hover path {
+		color: $red;
+		stroke: $red;
+	}
+}

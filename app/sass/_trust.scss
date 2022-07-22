@@ -1,0 +1,91 @@
+.trust {
+	padding-top: 60px;
+	&__title {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 17px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		color: $blue;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	&__list {
+		@media screen and (min-width: 768px) {
+			display: flex;
+			flex-wrap: wrap;
+		}
+	}
+	&__icon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 120px;
+		@media screen and (min-width: 768px){
+			width: 33.333%;
+		}
+		@media screen and (min-width: 992px){
+			width: 25%;
+		}
+			&_hillel {
+				background: $hillel;
+			}
+			&_wanna {
+				background: $wanna;
+			}
+			&_tapgerine {
+				background: $tapgerine;
+			}
+			&_look {
+				background: $look;
+			}
+			&_orangear {
+				background: $orangear;
+			}
+			&_adtelligent {
+				background: $adtelligent;
+			}
+			&_clickky {
+				background: $clickky;
+				display: none;
+				@media screen and (min-width: 768px) {
+					display: flex;
+				}
+			}
+			&_eco {
+				background: $eco;
+				display: none;
+				@media screen and (min-width: 768px) {
+					display: flex;
+				}
+			}
+			&_infratek {
+				background: $infratek;
+				display: none;
+				@media screen and (min-width: 768px) {
+					display: flex;
+				}
+			}
+			&_park {
+				background: $park;
+				display: none;
+				@media screen and (min-width: 768px) {
+					display: flex;
+				}
+			}
+			&_art-print {
+				background: $art-print;
+				display: none;
+				@media screen and (min-width: 768px) {
+					display: flex;
+				}
+			}
+			&_ultimate {
+				background: $black;
+				display: none;
+				@media screen and (min-width: 768px) {
+					display: flex;
+				}
+			}
+		}
+}

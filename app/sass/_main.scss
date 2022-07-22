@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+.body {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-style: normal;	
+	min-width: 375px;
+}
+.container {
+	min-width: 375px;
+	max-width: 1350px;
+	padding: 0 15px;
+	margin: 0 auto;
+	@media screen and (min-width: 768px) {
+		max-width: 678px;
+	}
+	@media screen and (min-width: 992px) {
+		max-width: 934px;
+	}
+	@media screen and (min-width: 1200px) {
+		max-width: 1350px;
+	}
+}
+a {
+	text-decoration: none;
+}
